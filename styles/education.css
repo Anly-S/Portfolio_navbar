@@ -1,7 +1,7 @@
 .education{
-    background-color:#ffee00;
+    
     text-align: center;
-    color: black;
+    color: white;
     margin-top: 10%;
     margin-left: 25px;
     width:90%;
@@ -11,7 +11,12 @@
     padding: 30px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
 
+}
+.e1{
+    flex: 1;
+    justify-content: space-around;
 }
 table{
     margin-left:auto;
