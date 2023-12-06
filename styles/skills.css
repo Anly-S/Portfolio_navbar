@@ -1,0 +1,13 @@
+.skills{
+    background-color:rgb(77, 161, 133) ;
+    text-align: center;
+    color: white;
+    margin-top: 25%;
+    width:90%;
+    box-shadow: 0 20px 20px 0 gray;
+    border-radius: 40px;
+    padding: 10px;
+    list-style: none;
+    font-size: larger;
+
+}

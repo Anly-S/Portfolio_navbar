@@ -1,0 +1,43 @@
+.maindiv{
+background-color: rgb(37, 173, 173);
+display: flex;
+}
+.div_one{
+background-color: rgb(77, 161, 133);
+flex:1;
+color: white;
+padding-left: 40px;
+padding-top: 30px;
+}
+.div_two{
+background-color: rgb(105, 228, 177);
+flex:2;
+list-style-type:  none;
+text-align: justify;
+padding:45px;
+}
+.list{
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    color:white;
+    text-decoration: none;
+
+}
+.list:hover{
+    color: red;
+}
+.contenth{
+    display: flex;
+}
+.home{
+    background-color: white;
+    width: 50%;
+    flex: 1;
+    text-align:center;
+}
+.photo img{
+    width: 200px;
+    height: 200px;
+    flex:1;
+}
