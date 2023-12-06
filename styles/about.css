@@ -1,12 +1,21 @@
 .about{
-    background-color:rgb(77, 161, 133) ;
+    background-color:#ffee00 ;
     text-align: center;
-    color: white;
-    margin-top: 25%;
+    color: black;
+    margin-top: 10%;
+    margin-left: 25px;
     width:90%;
     box-shadow: 0 20px 20px 0 gray;
     border-radius: 40px;
     font-size: larger;
     padding: 10px;
-
 }
+.about:hover{
+    animation-name: move;
+    animation-duration: 5s;
+}
+@keyframes move {
+    from {top: 0px;}
+    to {top: 200px;}
+  }
+  

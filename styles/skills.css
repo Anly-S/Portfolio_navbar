@@ -1,8 +1,9 @@
 .skills{
-    background-color:rgb(77, 161, 133) ;
+    background-color:#ffee00;
     text-align: center;
-    color: white;
-    margin-top: 25%;
+    color: black;
+    margin-top: 10%;
+    margin-left: 25px;
     width:90%;
     box-shadow: 0 20px 20px 0 gray;
     border-radius: 40px;
@@ -11,3 +12,41 @@
     font-size: larger;
 
 }
+li{
+    list-style: none;
+}
+
+.ui-widgets { 
+    position: relative; 
+    display:inline-block; 
+    width: 10rem; 
+    height: 10rem; 
+    border-radius: 9rem; 
+    margin:1.5rem; 
+    border: 1.2rem solid white; 
+    box-shadow: inset 0 0 7px grey; 
+    /* border-left-color:rgb(255, 174, 0);  */
+    border-top-color:green ; 
+    border-right-color:green; 
+    border-bottom-color: white ; 
+    text-align: center; 
+    box-sizing: border-box; 
+} 
+.ui-widgets .ui-values { 
+    top: 40px; 
+    position: absolute; 
+    left: 10px; 
+    right: 0; 
+    font-weight: 700; 
+    font-size: 2.0rem;
+}
+.ui-widgets .ui-labels { 
+  
+    left: 0; 
+    bottom: -16px; 
+    text-shadow: 0 0 4px grey; 
+    color: black; 
+    position: absolute; 
+    width: 100%; 
+    font-size: 16px; 
+} 
