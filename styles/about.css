@@ -12,5 +12,10 @@
     font-size: larger;
     padding: 45px;
 }
+.about:hover{
+    /* width:100%; */
+    padding: 2%;
+    display:grid;
+}
 
   

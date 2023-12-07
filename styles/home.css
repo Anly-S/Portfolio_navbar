@@ -30,7 +30,12 @@ padding:45px;
 
 
 .list:hover{
-    background-color:yellow ;
+    
+    color: white;
+}
+
+.div_two .active {
+    color: white;
 }
 .contenth{
     display: flex;
