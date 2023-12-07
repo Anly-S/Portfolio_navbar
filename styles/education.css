@@ -16,7 +16,7 @@
    
 }
 .e1{
-    flex: 1;
+    flex:0;
     /* justify-content: space-around; */
     flex-direction:row;
     box-shadow: 10px 10px 40px 10px orange;
@@ -25,10 +25,15 @@
     width:90%;
 
 }
+#details:hover{
+    transition: width 2s linear 1s;
+    color: orange;
+}
 .e1:hover{
     /* width:100%; */
     padding: 5%;
     display:grid;
+    flex:1;
 }
 table{
     margin-left:auto;
