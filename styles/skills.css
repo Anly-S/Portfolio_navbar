@@ -15,48 +15,6 @@
 li{
     list-style: none;
 }
-.circle{
-   display: flex;
-}
-/* .prog-circle{
-    width:12rem;
-    height: 12rem;
-    border-radius: 50%;
-    margin: auto;
-    background: linear-gradient(0deg,white 50%,green 50%);
-    position: relative;
-    transform: rotate(90deg);
-} */
-/* .prog-circle::before{
-    content:"C";
-    width: 12rem;
-    height:12rem;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 50%;
-    padding: .5rem;
-    box-sizing: border-box;
-    font-size: 2rem;
-    background: white content-box;
-    color: black;
-    text-align: center;
-    line-height: 8rem;
-    transform: rotate(-90deg);
-}
-.prog-circle::after{
-    width: 12rem;
-    height:12rem;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 50%;
-    transform: scale(1.1)rotate(-90deg);
-    text-align: center;
-    color: #fff;
-    line-height: 13rem;
-
-} */
 
 .ui-widgets { 
     position: relative; 
@@ -68,8 +26,9 @@ li{
     border: 1.2rem solid white; 
     box-shadow: inset 0 0 7px grey; 
     /* border-left-color:rgb(255, 174, 0);  */
-    border-top-color:green ; 
-    border-right-color:green; 
+    border-top-color:orange ; 
+    border-right-color:orange; 
+    border-left-color: orange;
     border-bottom-color: white ; 
     text-align: center; 
     box-sizing: border-box; 
